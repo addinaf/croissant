@@ -23,3 +23,18 @@ p {
   margin-top: 30px;
   padding: 30px 30px 30px 30px;
 }
+.btn {
+  border-radius: 10px;
+  border: solid 1pt var(--primary-color);
+}
+.btn:hover {
+  background: var(--primary-color);
+  border: solid 1pt var(--light-color);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover {
+  color: var(--light-color);
+}
